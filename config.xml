@@ -2,10 +2,10 @@
 
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.app-3"  
+     id    = "com.phonegap.app3"  
      version  = "1.0.0">  
 	 
-   <Andy Cruz Paredez Mendez> app-3-Especialidad Tecnico en programacion </Andy Cruz Paredez Mendez>  
+   <name> app3-Especialidad Tecnico en programacion </name>  
    
    <description>  
      Aplicacion que nos muestra la informacion sobre la especialidad de Tecnico en Programacion CBTis
@@ -31,7 +31,7 @@
 
 <!--Paraaccesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
-<acces origin="https://*/*"/>
+<acces arigin="https://*/*"/>
 <allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
